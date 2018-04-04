@@ -1,0 +1,35 @@
+.background    { background-image: url(sky3.gif);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: #aafac8; }
+.wall          { background: #b7adcf; }
+.floater		{background: #C8B7D0;
+				border-radius: 12px;}
+
+.actor  { position: absolute;  }
+.player { background-image: url("sprite.png");
+		  background-size: 18px 35px;}
+.coin {background-image: url(star.png);
+		background-size: 13px 13px }
+.powerup {background-image: url("Moon.png");
+		  background-size: 25px 25px;}
+.portal {background: black;
+		border-radius: 8px}
+.key {background-image: url(Key.gif);
+		background-size: 13px 13px}
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: url(lose.gif);
+	background-size: 18px 35px;;
+}
+.won .player {
+  background: url(Won.gif);
+	background-size: 18px 35px;
+}
